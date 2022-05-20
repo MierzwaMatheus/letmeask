@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+:root {
+
+  --black: hsl(240, 6%, 17%);
+  --shadow: hsl(285, 50%, 2%);
+  --purple: hsl(255, 98%, 67%);
+  --danger: hsl(349, 78%, 58%);
+  --google: hsla(5, 81%, 56%, 1);
+
+
+  --gray-dark: hsl(240, 5%, 48%);
+  --gray-medium: hsl(240, 7%, 68%);
+  --gray-light: hsl(210, 3%, 86%);
+
+  --white-background: hsl(0, 0%, 97%);
+  --white-details: hsl(0, 0%, 100%);
+
+  --pink-dark: hsl(293, 93%, 66%);
+  --pink-light: hsl(293, 63%, 69%);
+
+  --hover-purple: hsl(255, 64%, 57%);
+  --hover-danger: hsl(349, 67%, 53%);
+  --hover-gray-medium: hsl(240, 3%, 51%);
+  --hover-gray-light: hsl(0, 0%, 81%);
+
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+body {
+  background: var(--white-background);
+  color: var(--black);
+}
+
+body, input, button, textarea {
+  font: 400 1.6rem 'Roboto', sans-serif;
+}
