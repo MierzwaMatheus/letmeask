@@ -33,5 +33,28 @@
         color: var(--gray-dark)
       }
     }
+
+    button {
+      border: none;
+      background: none;
+      cursor: pointer;
+
+      &.like-button {
+        display: flex;
+        align-items: flex-end;
+        gap: .9rem;
+        font: 1.6rem 'Roboto', sans-serif;
+        color: var(--gray-dark);
+
+        &.liked {
+          color: var(--purple);
+
+          svg path {
+            stroke: var(--purple);
+          }
+        }
+      }
+      
+    }
   }
 }
