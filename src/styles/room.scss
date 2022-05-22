@@ -13,6 +13,13 @@ header {
     > img {
       max-width: 10rem;
     }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: .9rem;
+
+    }
   }
 }
 
@@ -96,5 +103,10 @@ main {
         }
       }
     }
+  }
+
+  .question-list {
+    margin-top: 3.2rem;
+
   }
 }

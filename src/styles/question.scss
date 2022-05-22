@@ -1,0 +1,37 @@
+.question {
+  background: var(--white-details);
+  border-radius: .8rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  padding: 2.4rem;
+
+  & + .question {
+    margin-top: .8rem;
+  }
+
+  p {
+    color: var(--black);
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+
+      img {
+        height: 3.2rem;
+        border-radius: 100%;
+      }
+
+      span {
+        font-size: 1.4rem;
+        color: var(--gray-dark)
+      }
+    }
+  }
+}

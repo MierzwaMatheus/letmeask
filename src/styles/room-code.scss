@@ -9,6 +9,8 @@
   
   cursor: pointer;
 
+  background: none;
+
   div {
     background-color: var(--purple);
     padding: 1rem 1.2rem;
@@ -17,6 +19,6 @@
   span {
     padding: 1.2rem 1.7rem 1.2rem 1.2rem;
     font: 500 1.4rem 'Roboto', sans-serif;
-    background-color: none;
+    background: none;
   }
 }
