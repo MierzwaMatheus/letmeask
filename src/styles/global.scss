@@ -8,29 +8,43 @@
 
 :root {
 
-  --black: hsl(240, 6%, 17%);
+  --black: hsl(0, 0%, 100%);
+  // --black: hsl(240, 6%, 17%);
   --shadow: hsl(276, 45%, 2%);
-  --purple: hsl(255, 98%, 67%);
+  // --purple: hsl(255, 98%, 67%);
+  --purple: hsl(222, 63%, 62%);
   --danger: hsl(349, 78%, 58%);
   --google: hsla(5, 81%, 56%, 1);
 
 
-  --gray-dark: hsl(240, 5%, 48%);
-  --gray-medium: hsl(240, 7%, 68%);
-  --gray-light: hsl(210, 3%, 86%);
+  --gray-dark: hsl(220, 14%, 63%);
+  // --gray-dark: hsl(240, 5%, 48%);
+  --gray-medium: hsl(220, 12%, 43%);
+  // --gray-medium: hsl(240, 7%, 68%);
+  --gray-light: hsl(240, 8%, 36%);
+  // --gray-light: hsl(210, 3%, 86%);
 
-  --white-background: hsl(0, 0%, 97%);
-  --white-details: hsl(0, 0%, 100%);
+  --white-background: hsl(220, 10%, 23%);
+  // --white-background: hsl(0, 0%, 97%);
+  --white-details: hsl(240, 6%, 17%);
+  // --white-details: hsl(0, 0%, 100%);
 
-  --pink-dark: hsl(293, 93%, 66%);
-  --pink-light: hsl(293, 63%, 69%);
-
-  --hover-purple: hsl(255, 64%, 57%);
+  --pink-dark: hsl(217, 88%, 77%);
+  // --pink-dark: hsl(293, 93%, 66%);
+  --pink-light: hsl(217, 58%, 77%);
+  // --pink-light: hsl(293, 63%, 69%);
+  
+  // --hover-purple: hsl(255, 64%, 57%);
+  --hover-purple: hsl(217, 88%, 77%);
   --hover-danger: hsl(349, 67%, 53%);
   --hover-gray-medium: hsl(240, 3%, 51%);
-  --hover-gray-light: hsl(0, 0%, 81%);
+  --hover-gray-light: hsl(240, 6%, 28%);
 
-  --line-border:  hsl(0, 0%, 89%);
+  --line-border:  hsl(276, 45%, 2%);
+  // --line-border:  hsl(0, 0%, 89%);
+  --bg-highlighted: hsl(240, 6%, 28%);
+  // --bg-highlighted: hsla(255, 100%, 97%, 1);
+
 
 
 

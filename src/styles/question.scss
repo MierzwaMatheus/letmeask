@@ -8,6 +8,19 @@
     margin-top: .8rem;
   }
 
+  &.highlight {
+    background: var(--bg-highlighted);
+    border: solid 2px var(--purple);
+    
+    footer .user-info span {
+      color: var(--black);
+    }
+  }
+  
+  &.answered {
+    background: var(--gray-light)
+  }
+
   p {
     color: var(--black);
   }
@@ -55,6 +68,12 @@
         }
       }
       
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
     }
   }
 }

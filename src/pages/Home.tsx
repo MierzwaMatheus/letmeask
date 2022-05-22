@@ -29,6 +29,7 @@ export function Home() {
   async function handleJoinRoom(event: FormEvent) {
     event.preventDefault();
 
+
     if (roomCode.trim() === '') {
       return;
     }
@@ -43,6 +44,10 @@ export function Home() {
     if (roomRef.val().endedAt) {
       alert('Room already closed.');
       return;
+    }
+
+    if (!user) {
+      await signInWithGoogle()
     }
 
     navigate(`/room/${roomCode}`)
