@@ -77,3 +77,16 @@
     }
   }
 }
+
+$small: 300px;
+$medium: 1020px;
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+  .question {
+    footer {
+      flex-direction: column-reverse;
+      padding-top: 2.5rem;
+      gap: 1rem;
+    }
+  }
+}

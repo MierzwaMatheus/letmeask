@@ -72,7 +72,7 @@ export function Room() {
       <header>
         <div className="content">
           <Link to={'/'}>
-            <img src={logoImg} alt="Logo aplicação" />        
+            <img className="logo" src={logoImg} alt="Logo aplicação" />        
           </Link>
           <RoomCode code={roomId}  />
         </div>

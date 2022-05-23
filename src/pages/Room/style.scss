@@ -1,16 +1,17 @@
 header {
 
   border-bottom: 1px solid var(--line-border);
+
   .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-inline: 16rem;
 
-    padding-top: 5rem;
+    padding-top: 2.1rem;
     padding-bottom: 2.4rem;
 
-    > img {
+    .logo {
       max-width: 10rem;
     }
 
@@ -111,5 +112,49 @@ main {
   .question-list {
     margin-top: 3.2rem;
 
+  }
+}
+
+$small: 300px;
+$medium: 1020px;
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+  #page-room {
+    margin: auto;
+
+    header {
+      .content {
+        padding-block: 2rem;
+        padding-inline: 1rem;
+        justify-content: center;
+
+        .logo {
+          display: none;
+        }
+      }
+    }
+
+    main {
+      padding-block: 5.5rem;
+      padding-inline: 2rem;
+
+      display: flex;
+      flex-direction: column;
+
+      max-width: 52rem;
+      margin: auto;
+      
+      .room-title {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      form {
+        .form-footer {
+          flex-direction: column-reverse;
+          gap: 1.5rem;
+        }
+      }
+    }
   }
 }

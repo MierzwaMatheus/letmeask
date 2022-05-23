@@ -62,7 +62,7 @@ export function AdmRoom() {
       <header>
         <div className="content">
           <Link to={'/'}>
-            <img src={logoImg} alt="Logo aplicação" />        
+            <img className="logo" src={logoImg} alt="Logo aplicação" />        
           </Link>
           <div className="buttons">
             <RoomCode code={roomId}  />
