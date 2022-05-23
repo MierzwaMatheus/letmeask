@@ -6,11 +6,11 @@ import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
 import logInImg from '../assets/images/log-in.svg'
 
-import { Button } from '../components/Button';
 
-import '../styles/auth.scss'
-import { useAuth } from '../hooks/useAuth';
-import { database } from '../services/firebase';
+import './style.scss'
+import { database } from '../../services/firebase';
+import { Button } from '../../components/Button';
+import { useAuth } from '../../hooks/useAuth';
 
 
 export function Home() {

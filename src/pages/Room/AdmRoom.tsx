@@ -1,18 +1,18 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import logoImg from '../assets/images/logo.svg';
-import { Button } from '../components/Button';
+import { Button } from '../../components/Button';
 import deleteImg from '../assets/images/delete.svg'
 import checkImg from '../assets/images/check.svg'
 import answerImg from '../assets/images/answer.svg'
 // import { useAuth } from '../hooks/useAuth';
 // import { database } from '../services/firebase';
 
-import '../styles/room.scss'
-import { RoomCode } from './../components/RoomCode';
-import { Question } from '../components/Question';
-import { useRoom } from '../hooks/useRoom';
-import { database } from '../services/firebase';
+import './style.scss'
+import { RoomCode } from '../../components/RoomCode';
+import { Question } from '../../components/Question';
+import { useRoom } from '../../hooks/useRoom';
+import { database } from '../../services/firebase';
  
 
 type RoomParams = {

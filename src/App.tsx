@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
 
-import { Home } from "./pages/Home";
-import { NewRoom } from "./pages/NewRoom";
-import { Room } from './pages/Room';
-import { AdmRoom } from './pages/AdmRoom';
+import { Home } from "./pages/Home/index";
+import { Room } from './pages/Room/index';
+import { AdmRoom } from './pages/Room/AdmRoom';
 
 import { AuthContextProvider } from './contexts/AuthContext'
+import { NewRoom } from './pages/Home/NewRoom';
 
 
 function App() {
