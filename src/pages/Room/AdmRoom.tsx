@@ -1,7 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import logoImg from '../assets/images/logo.svg';
-import { Button } from '../../components/Button';
+import { Button } from '../components/Button/index';
 import deleteImg from '../assets/images/delete.svg'
 import checkImg from '../assets/images/check.svg'
 import answerImg from '../assets/images/answer.svg'
@@ -9,8 +9,8 @@ import answerImg from '../assets/images/answer.svg'
 // import { database } from '../services/firebase';
 
 import './style.scss'
-import { RoomCode } from '../../components/RoomCode';
-import { Question } from '../../components/Question';
+import { RoomCode } from '../components/RoomCode/index';
+import { Question } from '../components/Question/index';
 import { useRoom } from '../../hooks/useRoom';
 import { database } from '../../services/firebase';
  

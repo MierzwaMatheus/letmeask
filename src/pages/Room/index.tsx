@@ -2,13 +2,13 @@ import { FormEvent, useState } from 'react';
 import { Link, useParams } from 'react-router-dom'
 
 import logoImg from '../assets/images/logo.svg';
-import { Button } from '../../components/Button';
+import { Button } from '../components/Button/index';
 import { useAuth } from '../../hooks/useAuth';
 import { database } from '../../services/firebase';
 
 import './style.scss'
-import { RoomCode } from '../../components/RoomCode';
-import { Question } from '../../components/Question';
+import { RoomCode } from '../components/RoomCode/index';
+import { Question } from '../components/Question/index';
 import { useRoom } from '../../hooks/useRoom';
  
 

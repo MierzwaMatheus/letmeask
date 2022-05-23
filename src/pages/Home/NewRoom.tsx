@@ -11,7 +11,7 @@ import logoImg from '../assets/images/logo.svg'
 import './style.scss'
 import { useAuth } from '../../hooks/useAuth'
 import { database } from '../../services/firebase'
-import { Button } from '../../components/Button'
+import { Button } from '../components/Button/index'
 
 
 export function NewRoom() {

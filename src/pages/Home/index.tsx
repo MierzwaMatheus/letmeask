@@ -9,7 +9,7 @@ import logInImg from '../assets/images/log-in.svg'
 
 import './style.scss'
 import { database } from '../../services/firebase';
-import { Button } from '../../components/Button';
+import { Button } from '../components/Button/index';
 import { useAuth } from '../../hooks/useAuth';
 
 
